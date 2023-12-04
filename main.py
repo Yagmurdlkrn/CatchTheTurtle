@@ -1,16 +1,11 @@
-# This is a sample Python script.
+import turtle
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+#screen
+game_screen = turtle.Screen()
+game_screen.bgcolor("white")
+game_screen.title("Catch The Turtle")
+game_screen.setup(width= 500 , height= 500)
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+turtle.mainloop()
